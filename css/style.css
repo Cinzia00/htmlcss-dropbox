@@ -26,6 +26,10 @@ body {
     justify-content: space-between;
 }
 
+.container-header {
+    display: flex;
+    justify-content: space-between;
+}
 
 .row_bg-celeste {
     padding: 60px;
@@ -92,6 +96,15 @@ h2 {
     border: 1px solid black;
 }
 
+.col-12 {
+    flex-basis: 100%;
+}
+
+.col-header {
+    padding: 17px;
+    gap: 20px;
+}
+
 h3 {
     display: inline-block;
     font-size: 35px;
@@ -115,4 +128,13 @@ h3 {
 
 .radio-item {
     padding-left: 20px;
+}
+
+.mese {
+    color: gray;
+    font-size: 15px;
+}
+
+.check-ok {
+    color:  #0061FF;
 }
