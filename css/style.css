@@ -51,8 +51,14 @@ h2 {
     max-width: 1724px;
 }
 
-.container .section2 {
-    max-width: 1500px;
+
+.main-container{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+.col-radio {
+    padding-left: 15px;
 }
 
 .col1-12 {
@@ -73,9 +79,8 @@ h2 {
 
 .button_bg {
     background-color: #0061FF;
-    width: 250px;
     color: white;
-    padding: 5px;
+    padding: 8px 40px;
     text-align: center;
 }
 
@@ -87,13 +92,19 @@ h2 {
     flex-basis: calc((100% * 4) / 12);
 }
 
-.link {
-    text-decoration: underline;
-    color: #8F92F4;
+.col-ultima {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
 }
 
 .col-border {
     border: 1px solid black;
+}
+
+.link {
+    text-decoration: underline;
+    color: #8F92F4;
 }
 
 .col-12 {
@@ -106,24 +117,18 @@ h2 {
 }
 
 h3 {
-    display: inline-block;
-    font-size: 35px;
-    text-align: center;
+    font-size: 45px;
+    padding-top: 50px;
 }
 
 .utente {
     font-size: 25px;
-    padding: 20px;
-}
-
-.costo {
-    font-weight: bold;
-    padding-bottom: 0 20px 5px;
 }
 
 .radio {
-    padding-top: 60px;
-    padding-bottom: 50px;
+    padding-top: 40px;
+    padding-bottom: 30px;
+    display: flex;
 }
 
 .radio-item {
@@ -133,8 +138,30 @@ h3 {
 .mese {
     color: gray;
     font-size: 15px;
+    padding: 10px ;
 }
 
 .check-ok {
     color:  #0061FF;
+}
+
+.team {
+    text-align: center;
+    border-bottom: 1px solid  black;
+    padding: 10px;
+}
+
+.intro-card {
+    padding: 30px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.item {
+    padding: 20px;
+}
+
+.text {
+    padding-top: 40px;
 }
