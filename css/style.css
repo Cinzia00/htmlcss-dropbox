@@ -23,7 +23,7 @@ body {
 
 .row {
     display: flex;
-    justify-content: space-between;
+    gap: 30px;
 }
 
 .container-header {
@@ -51,10 +51,9 @@ h2 {
     max-width: 1724px;
 }
 
-
 .main-container{
     width: 1000px;
-    margin: 0 auto;
+    margin: 180px auto;
 }
 
 .col-radio {
@@ -74,7 +73,11 @@ h2 {
 
 .col8-12 {
     flex-basis: calc((100% * 8) / 12);
-    padding-left: 10px;
+}
+
+.col-text {
+    flex-basis: calc((100% * 4) / 12);
+    padding: 30px;
 }
 
 .button_bg {
@@ -95,11 +98,11 @@ h2 {
 .col-ultima {
     display: flex;
     justify-content: space-between;
-    margin-top: 20px;
+    margin: 40px 0;
 }
 
 .col-border {
-    border: 1px solid black;
+    border: 1px solid lightgrey;
 }
 
 .link {
@@ -118,7 +121,6 @@ h2 {
 
 h3 {
     font-size: 45px;
-    padding-top: 50px;
 }
 
 .utente {
@@ -147,7 +149,7 @@ h3 {
 
 .team {
     text-align: center;
-    border-bottom: 1px solid  black;
+    border-bottom: 1px solid  lightgray;
     padding: 10px;
 }
 
@@ -162,6 +164,32 @@ h3 {
     padding: 20px;
 }
 
+.search {
+    border: 1px solid black;
+    padding: 8px;
+}
+
+.sub-title {
+    font-size: 20px;
+}
+
 .text {
-    padding-top: 40px;
+    padding: 30px 0;
+}
+
+strong {
+    font-size: 25px;
+}
+
+.follower {
+    margin-right: 90px;
+    padding-bottom: 50px;
+}
+
+.riga {
+    display: flex;
+}
+
+.partner {
+    display: inline-block;
 }
