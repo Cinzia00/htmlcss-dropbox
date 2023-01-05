@@ -19,6 +19,7 @@ img {
 
 body {
     font-size: 20px;
+    font-family: sans-serif;
 }
 
 .row {
@@ -43,10 +44,6 @@ body {
 h2 {
     display: inline-block;
     font-size: 85px;
-}
-
-section:not[section_bg] {
-    margin: 100px 0;
 }
 
 .section-main {
@@ -91,7 +88,7 @@ section:not[section_bg] {
 .button_bg {
     background-color: #0061FF;
     color: white;
-    padding: 8px 40px;
+    padding: 20px;
     text-align: center;
 }
 
@@ -204,7 +201,6 @@ li.item {
 .riga {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .col50{
@@ -213,15 +209,36 @@ li.item {
 
 .icon-partner {
     width: 50%;
-    height: 250px;
-}
-
-.img-partner {
-    text-align: center;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding: 50px;
 }
 
 .icon-partner.designit {
     background-color:#A2D39B;
+    border: 15px solid #D1E9CD;
+}
+
+.icon_big_designit {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.container_icon-designit{
+    padding: 30px 50px;
+}
+
+.container_icon-designit li {
+    padding: 25px 0;
+}
+
+.icon_big_designit::after {
+    content: "";
+    width: 100px;
+    border-bottom: 1px solid lightgray;
+    margin-top: 35px;
 }
 
 .icon-partner.asu {
@@ -239,9 +256,6 @@ li.item {
 .col-card_designit {
     background-color: #F5F5F5;
     flex-basis: calc((100% * 4) / 12);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
 }
 
 .icon-partner.world {
@@ -292,10 +306,30 @@ li.item-black {
     padding: 10px 0;
 }
 
+.section1 {
+    margin-top: 80px;
+}
 
-/* .riga.black:after {
-    content: "";
-    display: block;
-    border: 1px solid white;
-    width: 100px;
-} */
+.domande-frequenti.section1 li {
+    padding: 35px 0;
+    border-top: 1px solid lightgray;
+}
+
+.domande-frequenti li:last-child {
+    border-bottom: 1px solid lightgray;
+}
+
+.riga.black1 {
+    margin: 80px 50px;
+
+}
+
+.lingua {
+    font-size: 18px;
+    margin: 0 50px;
+    gap: 10px;
+    display: flex;
+    border-top: 1px solid white;
+    width: 150px;
+    padding: 30px 0;
+}
