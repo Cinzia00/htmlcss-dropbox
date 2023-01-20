@@ -78,6 +78,7 @@ h2 {
 
 .col8-12 {
     flex-basis: 60%;
+    margin-bottom: -150px;
 }
 
 .col-text {
@@ -307,7 +308,7 @@ li.item-black {
 }
 
 .section1 {
-    margin-top: 80px;
+    margin-top: 180px;
 }
 
 .domande-frequenti.section1 li {
